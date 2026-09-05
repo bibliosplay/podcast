@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Del Libro al Micrófono — Taller de Podcast | Biblioteca del Maule</title>
+    <meta name="description" content="Taller gratuito de 6 sesiones para aprender a crear un podcast literario, desde la idea hasta la publicación en plataformas. Biblioteca Pública Regional del Maule.">
+    <meta name="theme-color" content="#6b4f3c">
+    <meta property="og:title" content="Del Libro al Micrófono — Taller de Podcast">
+    <meta property="og:description" content="6 sesiones · 12 horas para convertir la pasión por la literatura en contenido sonoro.">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8E%99%EF%B8%8F%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- ===== HEADER ===== -->
+    <header class="header">
+        <h1>📖 <span>Del Libro</span> al Micrófono</h1>
+        <p>🎙️ Taller de Podcast · Biblioteca Pública Regional del Maule</p>
+        <span class="badge">6 sesiones · 12 horas de creación</span>
+    </header>
+
+    <!-- ===== BARRA DE PROGRESO ===== -->
+    <div class="progress-wrapper">
+        <div class="progress-bar-bg" role="progressbar" aria-valuemin="0" aria-valuemax="6" aria-valuenow="0" aria-label="Progreso del taller">
+            <div class="progress-bar-fill" id="progressFill"></div>
+        </div>
+        <div class="progress-label">
+            <span>Progreso</span>
+            <span id="progressText" aria-live="polite">0 / 6 sesiones</span>
+        </div>
+    </div>
+
+    <!-- ===== PESTAÑAS ===== -->
+    <nav class="tabs" id="tabNav" role="tablist" aria-label="Sesiones del taller">
+        <button class="tab-btn active" id="tabbtn-home" data-tab="home" role="tab" aria-selected="true" aria-controls="home"><span class="num">🏠</span> Inicio</button>
+        <button class="tab-btn" id="tabbtn-sesion1" data-tab="sesion1" role="tab" aria-selected="false" aria-controls="sesion1"><span class="num">1</span> S1</button>
+        <button class="tab-btn" id="tabbtn-sesion2" data-tab="sesion2" role="tab" aria-selected="false" aria-controls="sesion2"><span class="num">2</span> S2</button>
+        <button class="tab-btn" id="tabbtn-sesion3" data-tab="sesion3" role="tab" aria-selected="false" aria-controls="sesion3"><span class="num">3</span> S3</button>
+        <button class="tab-btn" id="tabbtn-sesion4" data-tab="sesion4" role="tab" aria-selected="false" aria-controls="sesion4"><span class="num">4</span> S4</button>
+        <button class="tab-btn" id="tabbtn-sesion5" data-tab="sesion5" role="tab" aria-selected="false" aria-controls="sesion5"><span class="num">5</span> S5</button>
+        <button class="tab-btn" id="tabbtn-sesion6" data-tab="sesion6" role="tab" aria-selected="false" aria-controls="sesion6"><span class="num">6</span> S6</button>
+    </nav>
+
+    <!-- ===== CONTENIDO ===== -->
+    <main>
+
+    <!-- HOME -->
+    <div class="tab-content active" id="home" role="tabpanel" aria-labelledby="tabbtn-home" tabindex="0">
+        <div class="homepage-hero">
+            <span class="logo-icon">🎙️</span>
+            <h2>Bienvenidos al Taller de Podcast</h2>
+            <p class="lead">
+                Convierte tu pasión por la literatura y las historias en contenido sonoro.
+                Aprenderás desde la idea hasta la publicación en plataformas.
+            </p>
+            <a href="#" class="cta-btn" data-action="switch-tab" data-tab="sesion1">🚀 Comenzar Taller</a>
+
+            <div class="info-grid">
+                <div class="info-card"><span class="icon">📍</span> Biblioteca del Maule</div>
+                <div class="info-card"><span class="icon">👥</span> Cupo: 15 personas</div>
+                <div class="info-card"><span class="icon">⏳</span> 6 sesiones · 2h c/u</div>
+                <div class="info-card"><span class="icon">📋</span> <a href="#">Inscríbete aquí</a></div>
+            </div>
+
+            <!-- Ejemplo sonoro Home -->
+            <h3 class="welcome-audio-title">🎧 Audio de Bienvenida</h3>
+            <div class="welcome-audio">
+                <audio controls>
+                    <source src="#" type="audio/mpeg">
+                    Tu navegador no soporta audio.
+                </audio>
+                <p>El facilitador presenta el taller con música de fondo.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- SESIÓN 1 -->
+    <div class="tab-content" id="sesion1" role="tabpanel" aria-labelledby="tabbtn-sesion1" tabindex="0">
+        <h2>🟢 Sesión 1: La Chispa Creativa</h2>
+        <div class="sub">Objetivo: Definir el tema, el gancho y la estructura narrativa de tu podcast.</div>
+
+        <h3>📖 Contenido Teórico</h3>
+        <ul>
+            <li><strong>¿Qué hace un buen podcast literario?</strong> No es leer un libro en voz alta, es <em>contar una historia</em> usando el sonido como lienzo.</li>
+            <li><strong>La regla de los 3 segundos:</strong> Si en los primeros 3 segundos no atrapas, el oyente se va.</li>
+            <li><strong>Estructura clásica:</strong> Gancho → Desarrollo → Cierre.</li>
+        </ul>
+
+        <h3>🎧 Ejemplos Sonoros</h3>
+        <div class="audio-grid">
+            <div class="audio-card">
+                <strong>🔊 Ejemplo 1: "El Gancho Perfecto"</strong>
+                <small>Escucha los primeros 10 segundos de "Caso 63" (Chile). ¿Qué pregunta te hace?</small>
+                <audio controls><source src="#" type="audio/mpeg">Tu navegador no soporta audio.</audio>
+            </div>
+            <div class="audio-card">
+                <strong>🔊 Ejemplo 2: "El Cierre que Invita"</strong>
+                <small>Fragmento final de "El Hilo" sobre literatura latinoamericana.</small>
+                <audio controls><source src="#" type="audio/mpeg">Tu navegador no soporta audio.</audio>
+            </div>
+            <div class="audio-card">
+                <strong>🔊 Ejemplo 3: "Narrativa en Primera Persona"</strong>
+                <small>Extracto de "Nadie está escuchando" (podcast chileno).</small>
+                <audio controls><source src="#" type="audio/mpeg">Tu navegador no soporta audio.</audio>
+            </div>
+        </div>
+
+        <div class="actividad">
+            <h4>✍️ Actividad Práctica (30 min)</h4>
+            <ol>
+                <li><strong>Mapa Mental Sonoro (10 min):</strong> En una hoja, escribe "Literatura del Maule" en el centro. Ramifica con: poetas, mitos, crónicas urbanas, personajes históricos, paisajes.</li>
+                <li><strong>Define tu Gancho (10 min):</strong> Escribe 3 líneas que atrapen a un oyente. Ej: <em>"¿Sabías que en el cerro de Talca se escondió un tesoro pirata?"</em></li>
+                <li><strong>Comparte en parejas (10 min):</strong> Lee tu gancho en voz alta. Tu compañero te dice si le dan ganas de seguir escuchando.</li>
+            </ol>
+            <div>
+                <span class="timer-status" id="timer1-status" aria-live="polite"></span>
+                <span class="timer-display" id="timer1">30:00</span><br>
+                <button class="btn" data-action="timer-start" data-timer="timer1" data-minutes="30">▶ Iniciar</button>
+                <button class="btn btn-secondary" data-action="timer-pause" data-timer="timer1">⏸ Pausar</button>
+                <button class="btn btn-secondary" data-action="timer-reset" data-timer="timer1" data-minutes="30">⟲ Reiniciar</button>
+            </div>
+        </div>
+
+        <div class="recursos">
+            <a href="#" class="recurso">📄 Guía de Géneros Literarios para Podcast (PDF)</a>
+            <a href="#" class="recurso">📄 Plantilla de Guion en 3 Actos (PDF)</a>
+        </div>
+
+        <div class="entregable">
+            <h4>📤 Entregable</h4>
+            <label for="s1-gancho">Escribe tu "gancho" de 3 líneas:</label>
+            <textarea id="s1-gancho" placeholder="Escribe aquí tu gancho..."></textarea>
+            <button class="btn" data-action="submit-entregable" data-status="s1-status">📤 Subir</button>
+            <span class="entregable-status" id="s1-status" aria-live="polite"></span>
+        </div>
+    </div>
+
+    <!-- SESIÓN 2 -->
+    <div class="tab-content" id="sesion2" role="tabpanel" aria-labelledby="tabbtn-sesion2" tabindex="0">
+        <h2>🟡 Sesión 2: La Caja de Herramientas</h2>
+        <div class="sub">Objetivo: Conocer el equipo básico y preparar la voz para grabar con naturalidad.</div>
+
+        <h3>📖 Contenido Teórico</h3>
+        <ul>
+            <li><strong>Micrófonos:</strong> Dinámicos (ideal para principiantes) vs. Condensador (más sensibles).</li>
+            <li><strong>Efecto Proximidad:</strong> Acercarte al micrófono = más graves (voz más cálida).</li>
+            <li><strong>Técnica de respiración:</strong> Respirar con el diafragma para evitar cortes de aire.</li>
+            <li><strong>Las 5 P's:</strong> Pausa, Proyección, Pronunciación, Pasión y Público.</li>
+        </ul>
+
+        <h3>🎧 Ejemplos Sonoros</h3>
+        <div class="audio-grid">
+            <div class="audio-card">
+                <strong>🔊 Ejemplo 1: "Antes y Después de la Respiración"</strong>
+                <small>Misma frase: amateur (sin técnica) vs. profesional (con diafragma).</small>
+                <audio controls><source src="#" type="audio/mpeg">Tu navegador no soporta audio.</audio>
+            </div>
+            <div class="audio-card">
+                <strong>🔊 Ejemplo 2: "El Efecto Proximidad"</strong>
+                <small>Voz grabada a 5 cm, 15 cm y 30 cm del micrófono.</small>
+                <audio controls><source src="#" type="audio/mpeg">Tu navegador no soporta audio.</audio>
+            </div>
+            <div class="audio-card">
+                <strong>🔊 Ejemplo 3: "Dicción vs. Muletillas"</strong>
+                <small>Fragmento con "esteeee" vs. el mismo texto corregido.</small>
+                <audio controls><source src="#" type="audio/mpeg">Tu navegador no soporta audio.</audio>
+            </div>
+        </div>
+
+        <div class="actividad">
+            <h4>🎤 Actividad Práctica (40 min)</h4>
+            <ol>
+                <li><strong>Calentamiento vocal (10 min):</strong> Repite trabalenguas con palabras del Maule: <em>"Tres tristes tigres tragaban trigo en un trigal de Talca"</em>.</li>
+                <li><strong>Grabación de prueba (15 min):</strong> Con tu celular o micrófono, graba tu guion completo (sin editar).</li>
+                <li><strong>Escucha crítica en parejas (15 min):</strong> Intercambia audios y llena una checklist: ¿Se entiende todo? ¿Hay respiraciones muy fuertes?</li>
+            </ol>
+            <div>
+                <span class="timer-status" id="timer2-status" aria-live="polite"></span>
+                <span class="timer-display" id="timer2">40:00</span><br>
+                <button class="btn" data-action="timer-start" data-timer="timer2" data-minutes="40">▶ Iniciar</button>
+                <button class="btn btn-secondary" data-action="timer-pause" data-timer="timer2">⏸ Pausar</button>
+                <button class="btn btn-secondary" data-action="timer-reset" data-timer="timer2" data-minutes="40">⟲ Reiniciar</button>
+            </div>
+        </div>
+
+        <div class="recursos">
+            <a href="#" class="recurso">📄 Infografía: Partes de un Micrófono (PDF)</a>
+            <a href="#" class="recurso">🎧 Ejercicio de Respiración Guiada (audio)</a>
+        </div>
+
+        <div class="entregable">
+            <h4>📤 Entregable</h4>
+            <label for="s2-audio">Sube tu audio de prueba en MP3 (sin editar):</label>
+            <input type="file" id="s2-audio" accept=".mp3,.wav,.m4a">
+            <button class="btn" data-action="submit-entregable" data-status="s2-status">📤 Subir</button>
+            <span class="entregable-status" id="s2-status" aria-live="polite"></span>
+        </div>
+    </div>
+
+    <!-- SESIÓN 3 -->
+    <div class="tab-content" id="sesion3" role="tabpanel" aria-labelledby="tabbtn-sesion3" tabindex="0">
+        <h2>🔵 Sesión 3: El Taller del Sonido</h2>
+        <div class="sub">Objetivo: Aprender a limpiar, cortar y ordenar el audio usando Audacity.</div>
+
+        <h3>📖 Contenido Teórico</h3>
+        <ul>
+            <li><strong>Audacity:</strong> Software libre y potente.</li>
+            <li><strong>Herramientas básicas:</strong> Cortar (Ctrl+X), Silenciar (Ctrl+L), Normalizar.</li>
+            <li><strong>El "Corte Quirúrgico":</strong> Eliminar respiraciones, carraspeos y silencios largos.</li>
+        </ul>
+
+        <h3>🎧 Ejemplos Sonoros</h3>
+        <div class="audio-grid">
+            <div class="audio-card">
+                <strong>🔊 Ejemplo 1: "Audio Crudo vs. Audio Editado"</strong>
+                <small>Antes (lleno de ruidos) y después (limpio y profesional).</small>
+                <audio controls><source src="#" type="audio/mpeg">Tu navegador no soporta audio.</audio>
+            </div>
+            <div class="audio-card">
+                <strong>🔊 Ejemplo 2: "Reducción de Ruido"</strong>
+                <small>Grabación con ruido de ventilador vs. misma con filtro aplicado.</small>
+                <audio controls><source src="#" type="audio/mpeg">Tu navegador no soporta audio.</audio>
+            </div>
+            <div class="audio-card">
+                <strong>🔊 Ejemplo 3: "El Silencio que Habla"</strong>
+                <small>Uso de pausas largas para generar tensión (Radio Ambulante).</small>
+                <audio controls><source src="#" type="audio/mpeg">Tu navegador no soporta audio.</audio>
+            </div>
+        </div>
+
+        <div class="actividad">
+            <h4>✂️ Actividad Práctica (50 min)</h4>
+            <ol>
+                <li>Importa tu audio en Audacity.</li>
+                <li>Corta las respiraciones fuertes (10 min).</li>
+                <li>Elimina "esteeee" y repeticiones (15 min).</li>
+                <li>Aplica Normalizar (5 min).</li>
+                <li>Escucha el resultado y compáralo con tu audio original (10 min).</li>
+                <li>Exporta en MP3 (10 min).</li>
+            </ol>
+            <div>
+                <span class="timer-status" id="timer3-status" aria-live="polite"></span>
+                <span class="timer-display" id="timer3">50:00</span><br>
+                <button class="btn" data-action="timer-start" data-timer="timer3" data-minutes="50">▶ Iniciar</button>
+                <button class="btn btn-secondary" data-action="timer-pause" data-timer="timer3">⏸ Pausar</button>
+                <button class="btn btn-secondary" data-action="timer-reset" data-timer="timer3" data-minutes="50">⟲ Reiniciar</button>
+            </div>
+        </div>
+
+        <div class="recursos">
+            <a href="#" class="recurso">📄 Atajos de Teclado para Audacity (PDF)</a>
+            <a href="#" class="recurso">🎬 Tutorial Express: Cortar Silencios (video)</a>
+        </div>
+
+        <div class="entregable">
+            <h4>📤 Entregable</h4>
+            <label for="s3-audio">Sube tu audio editado en MP3:</label>
+            <input type="file" id="s3-audio" accept=".mp3">
+            <button class="btn" data-action="submit-entregable" data-status="s3-status">📤 Subir</button>
+            <span class="entregable-status" id="s3-status" aria-live="polite"></span>
+        </div>
+    </div>
+
+    <!-- SESIÓN 4 -->
+    <div class="tab-content" id="sesion4" role="tabpanel" aria-labelledby="tabbtn-sesion4" tabindex="0">
+        <h2>🟣 Sesión 4: Ambientación y Ritmo</h2>
+        <div class="sub">Objetivo: Usar música y efectos de sonido para crear atmósfera y ritmo narrativo.</div>
+
+        <h3>📖 Contenido Teórico</h3>
+        <ul>
+            <li><strong>La música es emoción:</strong> Una canción triste cambia la interpretación de una noticia neutra.</li>
+            <li><strong>Fade In/Out:</strong> La música no debe interrumpir a la voz.</li>
+            <li><strong>Efectos de transición:</strong> Campanillas, páginas pasando, susurros.</li>
+            <li><strong>Dónde conseguir sonidos:</strong> Freesound, Pixabay, biblioteca de Audacity.</li>
+        </ul>
+
+        <h3>🎧 Ejemplos Sonoros</h3>
+        <div class="audio-grid">
+            <div class="audio-card">
+                <strong>🔊 Ejemplo 1: "Misma Voz, Distinta Música"</strong>
+                <small>Frase con música alegre vs. de suspense.</small>
+                <audio controls><source src="#" type="audio/mpeg">Tu navegador no soporta audio.</audio>
+            </div>
+            <div class="audio-card">
+                <strong>🔊 Ejemplo 2: "El Ambiente Literario"</strong>
+                <small>Cuento de Mistral con sonido de pájaros y viento vs. sin ambiente.</small>
+                <audio controls><source src="#" type="audio/mpeg">Tu navegador no soporta audio.</audio>
+            </div>
+            <div class="audio-card">
+                <strong>🔊 Ejemplo 3: "Transiciones Creativas"</strong>
+                <small>Sonido de reloj marcando el paso del tiempo.</small>
+                <audio controls><source src="#" type="audio/mpeg">Tu navegador no soporta audio.</audio>
+            </div>
+        </div>
+
+        <div class="actividad">
+            <h4>🎵 Actividad Práctica (40 min)</h4>
+            <ol>
+                <li>Busca 1 música y 2 efectos en Freesound que combinen con tu podcast (10 min).</li>
+                <li>Agrega una pista de música en Audacity y aplica Fade In/Out (15 min).</li>
+                <li>Coloca efectos de transición en los cambios de tema (10 min).</li>
+                <li>Escucha la mezcla y ajusta el volumen (5 min).</li>
+            </ol>
+            <div>
+                <span class="timer-status" id="timer4-status" aria-live="polite"></span>
+                <span class="timer-display" id="timer4">40:00</span><br>
+                <button class="btn" data-action="timer-start" data-timer="timer4" data-minutes="40">▶ Iniciar</button>
+                <button class="btn btn-secondary" data-action="timer-pause" data-timer="timer4">⏸ Pausar</button>
+                <button class="btn btn-secondary" data-action="timer-reset" data-timer="timer4" data-minutes="40">⟲ Reiniciar</button>
+            </div>
+        </div>
+
+        <div class="recursos">
+            <a href="#" class="recurso">📄 Dónde encontrar Música y Efectos Libres (PDF)</a>
+            <a href="#" class="recurso">📄 50 Efectos para Podcast Literario (lista)</a>
+        </div>
+
+        <div class="entregable">
+            <h4>📤 Entregable</h4>
+            <label for="s4-audio">Sube tu mezcla con música y efectos en MP3:</label>
+            <input type="file" id="s4-audio" accept=".mp3">
+            <button class="btn" data-action="submit-entregable" data-status="s4-status">📤 Subir</button>
+            <span class="entregable-status" id="s4-status" aria-live="polite"></span>
+        </div>
+    </div>
+
+    <!-- SESIÓN 5 -->
+    <div class="tab-content" id="sesion5" role="tabpanel" aria-labelledby="tabbtn-sesion5" tabindex="0">
+        <h2>🟠 Sesión 5: Postproducción y Arte</h2>
+        <div class="sub">Objetivo: Darle identidad visual y pulir los detalles finales del audio.</div>
+
+        <h3>📖 Contenido Teórico</h3>
+        <ul>
+            <li><strong>La portada:</strong> 3000x3000px, 1:1. Clara y legible en miniatura.</li>
+            <li><strong>El título:</strong> Recordable y que dé pista del contenido.</li>
+            <li><strong>La descripción:</strong> En 2 líneas, ¿de qué trata y por qué escucharlo?</li>
+            <li><strong>Mastering:</strong> Asegurar volumen adecuado (~ -16 LUFS).</li>
+        </ul>
+
+        <h3>🎧 Ejemplos Sonoros</h3>
+        <div class="audio-grid">
+            <div class="audio-card">
+                <strong>🔊 Ejemplo 1: "Antes y Después del Mastering"</strong>
+                <small>Audio opaco vs. con compresión y normalización.</small>
+                <audio controls><source src="#" type="audio/mpeg">Tu navegador no soporta audio.</audio>
+            </div>
+            <div class="audio-card">
+                <strong>🔊 Ejemplo 2: "Intro con Música Personalizada"</strong>
+                <small>Intro breve con música característica del podcast.</small>
+                <audio controls><source src="#" type="audio/mpeg">Tu navegador no soporta audio.</audio>
+            </div>
+        </div>
+
+        <div class="actividad">
+            <h4>🎨 Actividad Práctica (50 min)</h4>
+            <ol>
+                <li>Diseña tu portada en Canva (30 min).</li>
+                <li>Graba tu intro personalizada (15 segundos) (10 min).</li>
+                <li>Aplica mastering final en Audacity (Normalizar + Compresor) (10 min).</li>
+            </ol>
+            <div>
+                <span class="timer-status" id="timer5-status" aria-live="polite"></span>
+                <span class="timer-display" id="timer5">50:00</span><br>
+                <button class="btn" data-action="timer-start" data-timer="timer5" data-minutes="50">▶ Iniciar</button>
+                <button class="btn btn-secondary" data-action="timer-pause" data-timer="timer5">⏸ Pausar</button>
+                <button class="btn btn-secondary" data-action="timer-reset" data-timer="timer5" data-minutes="50">⟲ Reiniciar</button>
+            </div>
+        </div>
+
+        <div class="recursos">
+            <a href="#" class="recurso">🖼️ Plantilla de Portada para Podcast (Canva)</a>
+            <a href="#" class="recurso">📄 Guía de Metadatos para Spotify/Apple (PDF)</a>
+        </div>
+
+        <div class="entregable">
+            <h4>📤 Entregable</h4>
+            <label for="s5-portada">Sube tu portada en JPG/PNG:</label>
+            <input type="file" id="s5-portada" accept=".jpg,.jpeg,.png">
+            <label for="s5-audio">Sube tu audio masterizado en MP3:</label>
+            <input type="file" id="s5-audio" accept=".mp3">
+            <button class="btn" data-action="submit-entregable" data-status="s5-status">📤 Subir</button>
+            <span class="entregable-status" id="s5-status" aria-live="polite"></span>
+        </div>
+    </div>
+
+    <!-- SESIÓN 6 -->
+    <div class="tab-content" id="sesion6" role="tabpanel" aria-labelledby="tabbtn-sesion6" tabindex="0">
+        <h2>🔴 Sesión 6: ¡A las Plataformas!</h2>
+        <div class="sub">Objetivo: Publicar el episodio en una plataforma y celebrar el logro.</div>
+
+        <h3>📖 Contenido Teórico</h3>
+        <ul>
+            <li><strong>Hosting:</strong> Spotify for Podcasters, iVoox, Buzzsprout.</li>
+            <li><strong>Metadatos:</strong> Título, descripción, número de episodio, categoría.</li>
+            <li><strong>Difusión:</strong> Clips de 1 minuto para redes, frases destacadas.</li>
+            <li><strong>Comunidad:</strong> Invitar a otros a suscribirse y comentar.</li>
+        </ul>
+
+        <h3>🎧 Ejemplos Sonoros</h3>
+        <div class="audio-grid">
+            <div class="audio-card">
+                <strong>🔊 Ejemplo 1: "Episodio Publicado en Spotify"</strong>
+                <small>Cómo suena un podcast ya publicado en la app.</small>
+                <audio controls><source src="#" type="audio/mpeg">Tu navegador no soporta audio.</audio>
+            </div>
+            <div class="audio-card">
+                <strong>🔊 Ejemplo 2: "Clip Viral para Redes"</strong>
+                <small>Clip de 30 segundos con subtítulos para promocionar.</small>
+                <audio controls><source src="#" type="audio/mpeg">Tu navegador no soporta audio.</audio>
+            </div>
+        </div>
+
+        <div class="actividad">
+            <h4>🚀 Actividad Práctica (60 min)</h4>
+            <ol>
+                <li>Crea tu cuenta en Spotify for Podcasters (10 min).</li>
+                <li>Sube tu episodio con todos los metadatos (20 min).</li>
+                <li>Comparte el enlace en el grupo del taller (5 min).</li>
+                <li>Escucha grupal: 2-3 episodios en pantalla grande (15 min).</li>
+                <li>Entrega de certificados y cierre (10 min).</li>
+            </ol>
+            <div>
+                <span class="timer-status" id="timer6-status" aria-live="polite"></span>
+                <span class="timer-display" id="timer6">60:00</span><br>
+                <button class="btn" data-action="timer-start" data-timer="timer6" data-minutes="60">▶ Iniciar</button>
+                <button class="btn btn-secondary" data-action="timer-pause" data-timer="timer6">⏸ Pausar</button>
+                <button class="btn btn-secondary" data-action="timer-reset" data-timer="timer6" data-minutes="60">⟲ Reiniciar</button>
+            </div>
+        </div>
+
+        <div class="recursos">
+            <a href="#" class="recurso">📄 Pasos para Publicar en Spotify (PDF)</a>
+            <a href="#" class="recurso">📄 Guía de Promoción en Redes (PDF)</a>
+        </div>
+
+        <div class="entregable">
+            <h4>📤 Entregable</h4>
+            <label for="s6-link">Pega el enlace público de tu podcast:</label>
+            <input type="url" id="s6-link" placeholder="https://open.spotify.com/show/...">
+            <button class="btn" data-action="submit-entregable" data-status="s6-status">📤 Enviar</button>
+            <span class="entregable-status" id="s6-status" aria-live="polite"></span>
+        </div>
+    </div>
+
+    </main>
+
+</div><!-- fin container -->
+
+<script src="js/script.js" defer></script>
+
+</body>
+</html>
